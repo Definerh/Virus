@@ -1,0 +1,25 @@
+target/
+ 
+#过滤Eclipse里用不到的文件或文件夹
+#Eclipse#
+.classpath
+.project
+.settings/
+ 
+#过滤IntelliJ IDEA里用不到的文件或文件夹
+#IntelliJ IDEA#
+*.idea
+*.iml
+*.ipr
+*.iws
+ 
+#gitee里勾选了自动生成Maven的过滤文件，下面的就是自动生成的那个过滤文件要过滤的文件或文件夹
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
